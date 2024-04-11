@@ -1,1 +1,14 @@
 // Your styles go here
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "bootstrap/scss/bootstrap";
+
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+);
+
+.features {
+    text-align: center;
+}

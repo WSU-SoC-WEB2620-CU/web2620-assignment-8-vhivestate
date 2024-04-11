@@ -6,11 +6,152 @@
   <title>Project Starter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
 <body>
   <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar w/ text</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-4 mb-lg-0">
+        </ul>
+
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link active" aria-current="page" href="#">Plans</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link active" aria-current="page" href="#">Projects</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>The Bootstrap Demo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A quod nulla autem placeat natus enim distinctio iusto adipisci unde, nam ducimus tenetur tempore, facere at obcaecati fuga aspernatur architecto nisi.</p>
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn btn-primary ">Click here to see more</button>
+      <button type="button" class="btn btn-warning ">Click here to see a demo</button>
+    </div>
+  </div>
+
+<div class="features">
+  <h2>Features</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempora autem exercitationem. Officia accusantium possimus reprehenderit animi, commodi sint nam ex cupiditate eum itaque deserunt ad dolores veritatis placeat cumque.</p>
+  <div class="d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- plans section -->
+<div class="plans d-flex d-flex justify-content-evenly">
+  <div class="w-50 p-3">
+    <h2 class="">Plans</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia pariatur commodi? Perferendis, temporibus obcaecati vitae repellat nesciunt pariatur hic cum illo possimus natus ad at! Reiciendis eos quasi obcaecati.</p>
+  </div>
+  <div>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Features</th>
+          <th scope="col">Free</th>
+          <th scope="col">Pro</th>
+          <th scope="col">Enterprise</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-check-circle"></i></td>
+          <td><i class="bi bi-check-circle"></i>git</td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-check-circle "></i></td>
+          <td><i class="bi bi-check-circle"></i></td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-check-circle"></i></td>
+          <td><i class="bi bi-check-circle"></i></td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-x-circle"></i></td>
+          <td><i class="bi bi-check-circle"></i>git</td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-x-circle"></i></td>
+          <td><i class="bi bi-check-circle"></i>git</td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-x-circle"></i></td>
+          <td><i class="bi bi-check-circle"></i>git</td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-x-circle"></i></td>
+          <td></td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-x-circle"></i></td>
+          <td></td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">Laudantium quia pariatur</th>
+          <td><i class="bi bi-x-circle"></i></td>
+          <td></td>
+          <td><i class="bi bi-check-circle"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="pricing">
+
+</div>
 <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>
