@@ -2,13 +2,34 @@
 @import "@fortawesome/fontawesome-free/css/all.css";
 @import "bootstrap/scss/bootstrap";
 
-$colors: (
-  "blue":       $blue,
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "pink":       $pink,
-);
-
+.header-color {
+  color: #ffffff; /* Change this hex code to your desired color */
+}
 .features {
     text-align: center;
 }
+// Define your colors
+$hotPinkStart: #f7c2dc;  // A lighter shade of hot pink
+$hotPinkEnd: #c2185b;    // A deeper hot pink
+
+.custom-color {
+  color: $hotPinkEnd;
+}
+// Apply the gradient to the body or a specific class
+.hero {
+  background: linear-gradient(to right, $hotPinkStart, $hotPinkEnd);
+}
+
+footer {
+  background-color: rgb(28, 27, 27);
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer h5 {
+  color: #ffffff;
+}
+
